@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Tangerine');
+
+header * {
+    text-align: center;
+    /*background-color: maroon;*/
+    color: #ffffff; 
+    margin: 0;
+    font-family: 'Calibri', 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    padding: 2%;
+    font-size:  300%;
+    font-weight: bolder;
+    background-color: #333333;
+}
+
+body {
+    background: linear-gradient(-45deg, skyblue, #333388);
+}
+
+#main-container {
+    margin: 2% 0;
+    height: 73.1vh;
+    color: white;
+    min-width: 1000px;
+}
+
+#main-container * {
+    font-family: 'Calibri', 'Courier New', Courier, monospace;
+}
+
+#left-panel {
+    margin: 0;
+    float: left;
+    width: 10%;
+}
+
+#left-panel * {
+    list-style: none;
+    max-width: 160px;
+}
+
+#left-panel li {
+    margin: 10px 0;
+    padding: 30px 10px;
+}
+
+#left-panel ul {
+    padding: 10px;
+} 
+
+#left-panel a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Calibri', 'Courier New', Courier, monospace;
+}
+
+#left-panel li:hover {
+    background: #333333;
+}
+#main-paragraph {
+    float: left;
+    width: 65%;
+    margin: 0 auto;
+}
+
+#main-paragraph p {
+    padding: 5%;
+}
+
+footer {
+    clear: both;
+    background-color: #333333;
+    margin: 0;
+    padding: 1em;
+}
+
+footer *{
+    color: white;
+    font-size: 1em;
+}
+body {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    min-width: 1000px;
+}
+
+html {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    min-width: 1000px;
+} 

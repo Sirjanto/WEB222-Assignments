@@ -1,0 +1,52 @@
+#registration {
+    background-color: rgba(99, 99, 99, 0.4);
+    border: 0.2em;
+    border-color: rgba(80,80,80,0.6);
+    border-style: solid;
+    padding: 2em;
+    margin: 2%;
+    width: 80%;
+
+}
+
+form div{
+    margin: 1.5em;
+}
+
+form div label {
+    display: inline-block;
+    width: 12em;
+}
+
+form div input {
+    width: 20em;
+    box-sizing: border-box;
+}
+
+#shipping div{
+    float: left;
+    margin: 1em;
+}
+
+#shipping input {
+    width: 8em;
+    box-sizing: border-box;
+}
+
+#shipping label {
+    display: inline-block;
+}
+
+
+#right-panel {
+    background-color: #333333;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+#right-panel div p {
+    max-width: 160px;
+    padding: 1em;
+}
+
